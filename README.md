@@ -56,7 +56,7 @@ python test_2D_contrastive_superpixel.py
 ```
 
 ## Acknowledgement
-The code for source domain training is modified from [WSL4MIS]([https://github.com/HiLab-git/WSL4MIS]). 
+The code  is modified from [WSL4MIS]([https://github.com/HiLab-git/WSL4MIS]). 
 
 
 ## Note
