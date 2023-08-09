@@ -29,7 +29,7 @@ from val_2D import test_single_volume_cct, test_single_volume_ds
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
-                    default='/home/zm/WSL4MIS/data', help='Name of Experiment')
+                    default='../data, help='Name of Experiment')
 parser.add_argument('--exp', type=str,
                     default='ACDC/superpixel_dual_contrastive', help='experiment_name')
 parser.add_argument('--fold', type=str,

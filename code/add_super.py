@@ -260,8 +260,8 @@ if __name__ == '__main__':
         # f.close()
         # slice_num += 1
         f.close()
-    """
-        h5f1 = h5py.File("//Users//zhoumeng//Downloads//WSL4MIS-main//data//ACDC//ACDC_test//ACDC_training_slices//{}".format(case), 'r')
+    
+        h5f1 = h5py.File("../data/ACDC/ACDC_test/ACDC_training_slices//{}".format(case), 'r')
         image = h5f1['image'][:]
         label_original = h5f1['label'][:]
         scribble = h5f1['scribble'][:]
@@ -308,10 +308,7 @@ if __name__ == '__main__':
         cv2.imwrite("test_original_scribble.jpg", scribble_original_show)
     
     
-    
-    """
-        
-    """      
+
     p = SLICProcessor('test.jpg', 500, 5)
     clusters = p.iterate_10times()
     scribble250 = scribble.copy()
@@ -406,4 +403,3 @@ if __name__ == '__main__':
                 label_show[i][j][:] = [0,0,0]
     cv2.imwrite("test_label.jpg", label_show)
     
-    """

@@ -52,7 +52,7 @@ class BaseDataSets(Dataset):
         train_ids, test_ids = self._get_fold_ids(fold)
         if self.split == 'train':
             self.all_slices = os.listdir(
-                "/home/zm/WSL4MIS/data/ACDC_add_Super/ACDC_training_slices/")
+                "../data/ACDC/ACDC_add_Super/ACDC_training_slices/")
             self.sample_list = []
             for ids in train_ids:
                 new_data_list = list(filter(lambda x: re.match(
@@ -61,7 +61,7 @@ class BaseDataSets(Dataset):
 
         elif self.split == 'val':
             self.all_volumes = os.listdir(
-                "/home/zm/WSL4MIS/data/ACDC/ACDC_training_volumes/")
+                "../data/ACDC/ACDC_training_volumes/")
             self.sample_list = []
             for ids in test_ids:
                 new_data_list = list(filter(lambda x: re.match(
@@ -117,9 +117,9 @@ class BaseDataSets(Dataset):
     def __getitem__(self, idx):
         case = self.sample_list[idx]
         if self.split == "train":
-            h5f = h5py.File("/home/zm/WSL4MIS/data/ACDC_add_Super/ACDC_training_slices/{}".format(case), 'r')
+            h5f = h5py.File("../data/ACDC_add_Super/ACDC_training_slices/{}".format(case), 'r')
         else:
-            h5f = h5py.File("/home/zm/WSL4MIS/data/ACDC/ACDC_training_volumes/{}".format(case), 'r')
+            h5f = h5py.File("../data/ACDC/ACDC_training_volumes/{}".format(case), 'r')
             
         if self.split == "train":
             image = h5f['image'][:]
