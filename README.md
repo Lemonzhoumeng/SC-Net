@@ -57,7 +57,15 @@ python test_2D_contrastive_superpixel.py
 
 ## Acknowledgement
 The code  is modified from [WSL4MIS]([https://github.com/HiLab-git/WSL4MIS]). 
+## Citation
+ If you use this codebase in your research, please cite the following paper:
 
+		@InProceedings{Zhou2023scnet,
+		author={Meng Zhou, Zhe Xu, Kang Zhou, Kai-yu Tong},
+		title={Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization},
+		booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023},
+		year={2023},
+		pages={}}
 
 ## Note
 * Contact: Meng Zhou (1155156866@link.cuhk.edu.hk)
