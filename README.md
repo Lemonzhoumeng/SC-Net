@@ -46,17 +46,15 @@ python add_super.py
 ```
 cd code
 python train_superpixel_dual_contrastive.py # train model with scribble 
-
 ```
 
 5. Test the model
 ```
 python test_2D_contrastive_superpixel.py
-
 ```
 
 ## Acknowledgement
-The code  is modified from [WSL4MIS]([https://github.com/HiLab-git/WSL4MIS]). 
+The code  is modified from [WSL4MIS](https://github.com/HiLab-git/WSL4MIS). 
 ## Citation
  If you use this codebase in your research, please cite the following paper:
 
