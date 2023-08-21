@@ -61,7 +61,7 @@ The code  is modified from [WSL4MIS](https://github.com/HiLab-git/WSL4MIS).
 		@InProceedings{Zhou2023scnet,
 		author={Meng Zhou, Zhe Xu, Kang Zhou, Kai-yu Tong},
 		title={Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization},
-		booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023},
+		booktitle={Medical Image Computing and Computer Assisted Intervention},
 		year={2023},
 		pages={}}
 
