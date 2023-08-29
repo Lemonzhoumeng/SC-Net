@@ -41,6 +41,7 @@ python dataloaders/acdc_data_processing.py
 3. Get the label by Superpixel-guided Scribble Walking
 ```
 python add_super.py
+The folder for the generated superpixel labels can be obtained from https://drive.google.com/drive/folders/1AR-42jaJ_DXX2t9vYPU8T8dVn8Undum1?usp=drive_link.
 ```
 4.  Train the model
 ```
