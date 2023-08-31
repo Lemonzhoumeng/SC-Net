@@ -33,20 +33,20 @@ Follow official guidance to install [Pytorch][torch_link].
 git clone https://github.com/Lemonzhoumeng/SC-Net
 cd SC-Net
 ```
-2. Data pre-processing os used or the processed data.
+2. Data pre-processing or directly [download](https://github.com/HiLab-git/WSL4MIS/tree/main/data/ACDC) the pre-processed data.
 ```
 cd code
 python dataloaders/acdc_data_processing.py
 ```
-3. Get the label by Superpixel-guided Scribble Walking
+3. Superpixel-guided Scribble Walking to augment the scribble labels
 ```
 python add_super.py
-The folder for the generated superpixel labels can be obtained from https://drive.google.com/drive/folders/1AR-42jaJ_DXX2t9vYPU8T8dVn8Undum1?usp=drive_link.
 ```
+Or download our augmented labels from [Google drive](https://drive.google.com/drive/folders/1AR-42jaJ_DXX2t9vYPU8T8dVn8Undum1?usp=drive_link).
+
 4.  Train the model
 ```
-cd code
-python train_superpixel_dual_contrastive.py # train model with scribble 
+python train_superpixel_dual_contrastive.py --fold {}
 ```
 
 5. Test the model
@@ -55,16 +55,16 @@ python test_2D_contrastive_superpixel.py
 ```
 
 ## Acknowledgement
-The code  is modified from [WSL4MIS](https://github.com/HiLab-git/WSL4MIS). 
+The code is modified from [WSL4MIS](https://github.com/HiLab-git/WSL4MIS). 
+
 ## Citation
  If you use this codebase in your research, please cite the following paper:
 
 		@InProceedings{Zhou2023scnet,
 		author={Meng Zhou, Zhe Xu, Kang Zhou, Kai-yu Tong},
 		title={Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization},
-		booktitle={Medical Image Computing and Computer Assisted Intervention},
-		year={2023},
-		pages={}}
+		booktitle={MICCAI},
+		year={2023}}
 
 ## Note
-* Contact: Meng Zhou (1155156866@link.cuhk.edu.hk)
+* If you have any questions, feel free to contact Meng at (1155156866@link.cuhk.edu.hk)
