@@ -6,7 +6,7 @@ Pytorch implementation of our Weakly Supervised Medical Image Segmentation via S
 ## Paper
 [Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization](https://github.com/Lemonzhoumeng/SC-Net) MICCAI 2023
 <p align="center">
-  <img src="Framework.png">
+  <img src="2023-MICCAI-SCNet.png">
 </p>
 
 # Dataset
