@@ -1,6 +1,4 @@
-# SC-Net
-# Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization
-
+# SC-Net for Scribble-supervised Medical Image Segmentation
 Pytorch implementation of our Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization. <br/>
 
 ## Paper
