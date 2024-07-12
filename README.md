@@ -1,5 +1,5 @@
 # SC-Net for Scribble-supervised Medical Image Segmentation
-Pytorch implementation of our Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization. <br/>
+Pytorch implementation of our Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization (MICCAI 2023). <br/>
 
 ## Paper
 [Weakly Supervised Medical Image Segmentation via Superpixel-guided Scribble Walking and Class-wise Contrastive Regularization](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_13) MICCAI 2023
